@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.house{
+    width: 700px;
+    height: 350px;
+    background: #ccf;
+    border-bottom: 7px solid #175117;
+    position: relative;
+}
+
+.main{
+    width: 400px;
+    height: 200px;
+    background: #fff;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
