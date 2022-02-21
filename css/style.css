@@ -28,3 +28,39 @@ body{
     transform: translateX(-50%);
     position: absolute;
 }
+.main::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0, 0,0.1);
+}
+.roof{
+    height: 100px;
+    width: 100%;
+    /* background: #ff0; */
+    top: -100px;
+    position: absolute;
+}
+.roof::before{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    background: #257582;
+    position: absolute;
+    transform: skewX(330deg);
+}
+.roof::after{
+    content: '';
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    background: #257582;
+    position: absolute;
+    transform: skewX(30deg);
+}
