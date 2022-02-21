@@ -64,3 +64,23 @@ body{
     position: absolute;
     transform: skewX(30deg);
 }
+.front{
+    width: 180px;
+    height: 180px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    background: #f1f1f1;
+}
+.front::before{
+    content: '';
+    width: 126px;
+    height: 126px;
+    position: absolute;
+    left: 50%;
+    top: -64px;
+    background: #f1f1f1;
+    transform: translateX(-50%) rotate(45deg);
+
+}
